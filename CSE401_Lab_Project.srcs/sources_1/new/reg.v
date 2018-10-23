@@ -1,22 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10/23/2018 11:23:27 AM
-// Design Name: 
+// Course: CSE 401 
+// Name: Bryant Aparicio & Riley Sherwood
+// Create Date: 10/23/2018 11:22:52 AM
 // Module Name: REG
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Labratory 2
+
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+
 //////////////////////////////////////////////////////////////////////////////////
 
 

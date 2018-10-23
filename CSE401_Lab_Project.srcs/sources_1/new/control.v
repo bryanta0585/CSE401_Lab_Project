@@ -1,22 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Course: CSE 401 
+// Name: Bryant Aparicio & Riley Sherwood
 // Create Date: 10/23/2018 11:22:52 AM
-// Design Name: 
-// Module Name: control
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Module Name: control.v
+// Project Name: Labratory 2
+
 // Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+
 //////////////////////////////////////////////////////////////////////////////////
 
 
