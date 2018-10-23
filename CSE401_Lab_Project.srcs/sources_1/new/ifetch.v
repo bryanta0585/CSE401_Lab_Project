@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Course: CSE 401 
-// Name: Bryant Aparicio
+// Name: Bryant Aparicio & Riley Sherwood
 // Create Date: 10/16/2018 01:20:14 PM
 // Module Name: ifetch
 // Project Name: Labratory 1
@@ -11,6 +11,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////
 
+//github test
 
 module ifetch(
     output wire [31:0] IF_ID_INSTR, IF_ID_NPC,
