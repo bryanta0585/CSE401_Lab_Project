@@ -12,6 +12,6 @@
 
 
 module s_extend(
-
+        wire x;
     );
 endmodule
