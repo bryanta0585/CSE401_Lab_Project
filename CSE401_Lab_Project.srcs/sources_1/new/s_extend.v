@@ -12,6 +12,12 @@
 
 
 module s_extend(
-        wire x;
+        output reg [31:0] extend,
+        
+        input wire [15:0] nextend
     );
+    
+    always@* begin
+        assign extend = {{16{nextend[15]}}, {nextend[15:0]}};
+    end
 endmodule
