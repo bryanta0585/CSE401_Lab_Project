@@ -23,7 +23,7 @@ module id_ex(
         input wire [2:0] ctlm_out,
         input wire [3:0] ctlex_out,
         input wire [31:0] npc, readdat1, readdat2, signext_out,
-        input wire [4:0] instr_2016, instr_1511,
+        input wire [4:0] instr_2016, instr_1511
     );
     
     initial begin
