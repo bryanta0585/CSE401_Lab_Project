@@ -294,3 +294,99 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "id_ex.v", 2); // k (j, ck)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control.v", 1); // k (j, ck)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "id_ex.v", 2); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 48 MB. Current time: 10/30/18 10:01:21 PM PDT
+// Elapsed time: 266 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, control (control.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, control (control.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false); // B (D, ck)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, control (control.v)]", 7, false); // B (D, ck)
+selectCodeEditor("id_ex.v", 362, 153); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 5, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, control (control.v)]", 7, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+// Elapsed time: 12 seconds
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REG (reg.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("reg.v", 75, 250); // ce (w, ck)
+// Elapsed time: 59 seconds
+selectCodeEditor("reg.v", 67, 242); // ce (w, ck)
+// Elapsed time: 113 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "id_ex.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control.v", 1); // k (j, ck)
+selectCodeEditor("control.v", 200, 125); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg.v", 3); // k (j, ck)
+selectCodeEditor("reg.v", 74, 391); // ce (w, ck)
+selectCodeEditor("reg.v", 74, 388); // ce (w, ck)
+// Elapsed time: 369 seconds
+selectCodeEditor("reg.v", 84, 467); // ce (w, ck)
+// Elapsed time: 660 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectCodeEditor("reg.v", 49, 471); // ce (w, ck)
+selectCodeEditor("reg.v", 42, 89); // ce (w, ck)
+selectCodeEditor("reg.v", 48, 129); // ce (w, ck)
+selectCodeEditor("reg.v", 128, 88); // ce (w, ck)
+selectCodeEditor("reg.v", 230, 52); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("reg.v", 90, 94); // ce (w, ck)
+selectCodeEditor("reg.v", 194, 64); // ce (w, ck)
+selectCodeEditor("reg.v", 84, 414); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("reg.v", 229, 147); // ce (w, ck)
+selectCodeEditor("reg.v", 62, 131); // ce (w, ck)
+selectCodeEditor("reg.v", 185, 57); // ce (w, ck)
+selectCodeEditor("reg.v", 28, 488); // ce (w, ck)
+selectCodeEditor("reg.v", 24, 466); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("reg.v", 98, 470); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("reg.v", 137, 418); // ce (w, ck)
+selectCodeEditor("reg.v", 56, 465); // ce (w, ck)
+// Elapsed time: 70 seconds
+selectCodeEditor("reg.v", 353, 265); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("reg.v", 201, 449); // ce (w, ck)
+selectCodeEditor("reg.v", 263, 389); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("reg.v", 245, 457); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
