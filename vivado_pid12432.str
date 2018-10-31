@@ -1,0 +1,296 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 12432
+License: Customer
+
+Current time: 	Tue Oct 30 21:26:18 PDT 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2194x1234
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	bryan
+User home directory: C:/Users/bryan
+User working directory: C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/bryan/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/bryan/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/bryan/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project/vivado.log
+Vivado journal file location: 	C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project/vivado.jou
+Engine tmp dir: 	C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project/.Xil/Vivado-12432-MainRig-A
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 497 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\bryan\Documents\GitHub\CSE401_Lab_Project\CSE401_Lab_Project.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project/CSE401_Lab_Project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 61 MB (+61425kb) [00:00:05]
+// [Engine Memory]: 497 MB (+369162kb) [00:00:05]
+// Tcl Message: open_project C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project/CSE401_Lab_Project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/004140018/Documents/GitHub/CSE401_Lab_Project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+38444kb) [00:00:08]
+// [Engine Memory]: 569 MB (+50369kb) [00:00:08]
+// [GUI Memory]: 114 MB (+8757kb) [00:00:08]
+// [Engine Memory]: 639 MB (+43578kb) [00:00:09]
+// [GUI Memory]: 122 MB (+2414kb) [00:00:09]
+// [GUI Memory]: 129 MB (+316kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 44 MB. Current time: 10/30/18 9:26:21 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 806.008 ; gain = 71.957 
+// Project name: CSE401_Lab_Project; location: C:/Users/bryan/Documents/GitHub/CSE401_Lab_Project; part: xczu3eg-sbva484-1-e
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, ck)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 3); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 3); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 3); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 3); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, control.v]", 3, false); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ifetch (ifetch.v)]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, s_extend.v]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, control.v]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, control.v]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, control.v]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, control.v]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 45 MB. Current time: 10/30/18 9:26:50 PM PDT
+// Elapsed time: 11 seconds
+selectCodeEditor("control.v", 146, 477); // ce (w, ck)
+selectCodeEditor("control.v", 39, 460); // ce (w, ck)
+selectCodeEditor("control.v", 117, 465); // ce (w, ck)
+// [Engine Memory]: 672 MB (+1087kb) [00:01:03]
+// Elapsed time: 27 seconds
+selectCodeEditor("control.v", 179, 421); // ce (w, ck)
+typeControlKey((HResource) null, "control.v", 'c'); // ce (w, ck)
+selectCodeEditor("control.v", 98, 454); // ce (w, ck)
+selectCodeEditor("control.v", 117, 487); // ce (w, ck)
+typeControlKey((HResource) null, "control.v", 'v'); // ce (w, ck)
+selectCodeEditor("control.v", 198, 472); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectCodeEditor("control.v", 197, 471); // ce (w, ck)
+selectCodeEditor("control.v", 145, 483); // ce (w, ck)
+selectCodeEditor("control.v", 112, 435); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("control.v", 143, 457); // ce (w, ck)
+selectCodeEditor("control.v", 120, 475); // ce (w, ck)
+// Elapsed time: 76 seconds
+selectCodeEditor("control.v", 86, 455); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 37 seconds
+selectCodeEditor("control.v", 134, 333); // ce (w, ck)
+// Elapsed time: 33 seconds
+selectCodeEditor("control.v", 441, 220); // ce (w, ck)
+selectCodeEditor("control.v", 147, 317); // ce (w, ck)
+selectCodeEditor("control.v", 81, 333, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("control.v", 31, 348); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 47 MB. Current time: 10/30/18 9:31:20 PM PDT
+selectCodeEditor("control.v", 115, 319); // ce (w, ck)
+selectCodeEditor("control.v", 337, 200); // ce (w, ck)
+selectCodeEditor("control.v", 143, 388); // ce (w, ck)
+selectCodeEditor("control.v", 86, 319); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("control.v", 36, 378); // ce (w, ck)
+selectCodeEditor("control.v", 103, 303); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("control.v", 151, 185); // ce (w, ck)
+selectCodeEditor("control.v", 238, 366); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 329 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// Elapsed time: 339 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, id_ex (id_ex.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, id_ex (id_ex.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 75 seconds
+selectCodeEditor("id_ex.v", 97, 245); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("id_ex.v", 182, 238); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 34 seconds
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("id_ex.v", 190, 250); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 23 seconds
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 81 seconds
+selectCodeEditor("id_ex.v", 136, 364); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("id_ex.v", 70, 450); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("id_ex.v", 52, 469); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+selectCodeEditor("id_ex.v", 84, 304); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("id_ex.v", 24, 385); // ce (w, ck)
+// Elapsed time: 32 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("id_ex.v", 219, 320); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+selectCodeEditor("id_ex.v", 111, 254); // ce (w, ck)
+selectCodeEditor("id_ex.v", 231, 474); // ce (w, ck)
+// Elapsed time: 77 seconds
+selectCodeEditor("id_ex.v", 106, 456); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("id_ex.v", 85, 365); // ce (w, ck)
+selectCodeEditor("id_ex.v", 85, 365, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("id_ex.v", 62, 281); // ce (w, ck)
+typeControlKey((HResource) null, "id_ex.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("id_ex.v", 92, 301); // ce (w, ck)
+selectCodeEditor("id_ex.v", 92, 318); // ce (w, ck)
+// Elapsed time: 38 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("id_ex.v", 230, 281); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 127 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("id_ex.v", 205, 357); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 31 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "id_ex.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "id_ex.v", 2); // k (j, ck)
