@@ -55,5 +55,16 @@ module control(
                 EX <= ;
                 M  <= ;
                 WB <= ;
-           end
+            end
+           
+            NOP: begin
+                EX <= 4{1'b0};
+                M  <= 3{1'b0};
+                WB <= 2{1'b0};
+            end
+            
+            default: $display ("Incorrect Opcode.");
+        endcase
+    end
+    
 endmodule
